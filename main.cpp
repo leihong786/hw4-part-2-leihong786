@@ -33,6 +33,7 @@ int main() {
 	assert(answerSet2 == soln);
 
 
+
 	// The random number test creates a massive 28,000 value input vector.  
 	// Solving the problem with such a large input is not feasible using recursion, 
 	// but with dynamic programming it should take just a few seconds.  
@@ -53,6 +54,6 @@ int main() {
 	time_t duration = end - start;
 	cout << "It took " << duration << " seconds.  Wow!" << endl;\
 	
-	
+	//takes less than a second, power of future tech 
 	return 0;
 }
